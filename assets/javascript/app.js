@@ -2,7 +2,7 @@
 // variables for game start
 var correctAnswer = 0;
 var incorrectAnswer= 0;
-var answerTime = 45; // countdown to answer quiz
+var answerTime = 120; // countdown to answer quiz
 
 //hide questions when page loads
  $(".question-holder").hide()
@@ -30,7 +30,7 @@ startQuiz.on("click", function(){
 
 // fucntion for game start
  function start(){
-    answerTime = 45;
+    answerTime = 120;
     timer()
     runTimer()
  }
@@ -55,7 +55,7 @@ function timer() {
         clearInterval(answerCountdown)
         $("#timer").hide()
         $(".question-holder").hide()
-        endGame()
+        
         $("#score").text(" You got " + correctAnswer + " out of 6!").show()
     }
 }
@@ -83,32 +83,3 @@ $(".answer").on("click", function(){
 })
 
 
-function endGame(){
-    
-    
-    
-//     console.log("hi")
-   
-// )}
-// ).attr("value")
-// 
-
-// 
-
-// when time runs out, game over screen
-// 	show how much time was left
-
-// 	scores for correct, incorrect, and unanswered
-// 	a start over button
-
-}
-
-
-
-
-function resetGame(){
- //  reset button will completely reset the game
-// 	reset the timer
-// 	reset correct/incorrect
-// 	reset questions
-}
