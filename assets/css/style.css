@@ -1,0 +1,40 @@
+.question{
+    margin: 20px;
+    text-align: center;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+   
+}
+
+.game-holder{
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    /* background: lightslategray; */
+    margin: 100px 125px;
+    padding: 75px;
+    opacity: .9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#container{
+    text-align: center;
+    
+}
+
+header{
+    font-size: 75px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.btn-display{
+    width: 250px;
+    font-size: 35px;
+}
+
+p{
+    font-family: 'Cardo', serif;
+    font-size: 35px;
+}
+
